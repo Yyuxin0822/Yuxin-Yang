@@ -10,54 +10,9 @@
 
 
 <body>
-<!-- Sidebar -->
-<nav class="sidebar">
-    <p class=h1><strong>Y</strong>UXIN <strong>Y</strong>ANG</p>
-   
-       <button type="button" class="collapsible">Landscape and Urban Design</button>
-           <div class="content">
-               <ul><a href="project1.html" class=p--info>From Airport to HST Station: Bio Intermodality</a></ul>
-               <ul><a href="project2.html" class=p--info>Crosswind Data Center</a></ul>
-               <ul><a href="project3.html" class=p--info>Migration is Beautiful</a></ul>
-               <ul><a href="project4.html" class=p--info>Dredge Engine</a></ul>
-           </div>
-       <br>
-       <button type="button" class="collapsible">Technology</button>
-           <div class="content">
-               <ul><a href="tech1.html" class=p--info>IoT Shoreline: Wave, Weave</a></ul>
-               <ul><a href="tech2.html" class=p--info>CityScope Module: Kendall Life-Work Crescendo</a></ul>
-               <ul><a href="tech3.html" class=p--info>Remote Sensing Sanyang Wetland</a></ul>
-               <ul><a href="tech4.html" class=p--info>Adaptive Rocking Lattice Stool</a></ul>
-               <ul><a href="tech5.html" class=p--info>Air-Pillow Attire for Haphephobia</a></ul>
-   
-           </div>
-       <p><a href="whim.html" class=p--info>Writing</a></p>
-       <p><a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:9fe94b1a-4977-328f-8e4d-f6c2b8c8d8b4" class=p--info>CV</a></p>
-       <p><a href="index.html" class=p--info>About</a></p>
-   
-   
-       <footer>
-           <p>Published on GitHub Page <br>© Yuxin Yang, Feb 2023</p>
-       </footer>
-   </nav>  
-   <script>
-       var coll = document.getElementsByClassName("collapsible");
-       var i;
-       
-       for (i = 0; i < coll.length; i++) {
-         coll[i].addEventListener("click", function() {
-           this.classList.toggle("active");
-           var content = this.nextElementSibling;
-           if (content.style.display === "block") {
-             content.style.display = "none";
-           } else {
-             content.style.display = "block";
-           }
-         });
-       }
-   </script>
-   
-  
+<div id="sidebar-container"></div>
+<script src="sidebar-loader.js"></script>
+
 <!-- Page Content -->
 <div style="margin-left:280px" class="a">
 

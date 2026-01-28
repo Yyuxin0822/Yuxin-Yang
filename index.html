@@ -8,63 +8,19 @@
         <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
     </head>
 <body>
-<!-- Sidebar -->
-<nav class="sidebar">
-    <p class=h1><strong>Y</strong>UXIN <strong>Y</strong>ANG</p>
-   
-       <button type="button" class="collapsible">Landscape and Urban Design</button>
-           <div class="content">
-               <ul><a href="project1.html" class=p--info>From Airport to HST Station: Bio Intermodality</a></ul>
-               <ul><a href="project2.html" class=p--info>Crosswind Data Center</a></ul>
-               <ul><a href="project3.html" class=p--info>Migration is Beautiful: Biophillic Boulevard</a></ul>
-               <ul><a href="project4.html" class=p--info>Dredge Engine</a></ul>
-           </div>
-       <br>
-       <button type="button" class="collapsible">Technology</button>
-           <div class="content">
-               <ul><a href="tech1.html" class=p--info>IoT Shoreline: Wave, Weave</a></ul>
-               <ul><a href="tech2.html" class=p--info>CityScope Module: Kendall Life-Work Crescendo</a></ul>
-               <ul><a href="tech3.html" class=p--info>Remote Sensing Sanyang Wetland</a></ul>
-               <ul><a href="tech4.html" class=p--info>Adaptive Rocking Lattice Stool</a></ul>
-               <ul><a href="tech5.html" class=p--info>Air-Pillow Attire for Haphephobia</a></ul>
-   
-           </div>
-       <p><a href="whim.html" class=p--info>Writing</a></p>
-       <p><a href="cv.html" class=p--info>CV</a></p>
-       <p><a href="index.html" class=p--info>About</a></p>
-   
-   
-       <footer>
-           <p>Published on GitHub Page <br>© Yuxin Yang, Feb 2023</p>
-       </footer>
-   </nav>  
-<script>
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
-    
-    for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-            content.style.display = "none";
-        } else {
-            content.style.display = "block";
-        }
-        });
-    }
-</script>
+<div id="sidebar-container"></div>
+<script src="sidebar-loader.js"></script>
 
 
 <!-- Page Content -->
 <div style="margin-left:240px" class="a">
-  
+
     <img src="./resources/images/about/index.jpg" alt="Profile" width=240px>
     <br>
     <br>
     <div>
     <p class=p--info><strong>Conceptualizing Environments Through the Lens of Engineering and Technology</strong></p>
-    <p class=p--info>Hi! I am Yuxin Yang, a climate-positive and technology-savvy designer. I interface the built environment with system-and-process-driven creativity, 
+    <p class=p--info>Hi! I am Yuxin Yang, a climate-positive and technology-savvy designer. I interface the built environment with system-and-process-driven creativity,
         with particular interests in mega-infrastructure, mixed-use development, clean energy, and (coastal) water systems.I incorporate
     the knowledge of sensing technology and data visualization in design thinking. At or
     after work, I develop interactive and responsive tools to facilitate the public agenda.</p>
@@ -72,8 +28,8 @@
     Previously, I worked as an assistant in inventive design firms or research institutions such as SOM,
     SWA Group, URBANGENE, Zhuyufan Studio of Tsinghua University, and Shanghai Study
     Center of Hongkong University.</p>
-    <p class=p--info>I graduated from Harvard Graduate School of Design with a Master of Landscape Architecture 
-        and cross-registered at MIT Media Lab and EECS during my studies. 
+    <p class=p--info>I graduated from Harvard Graduate School of Design with a Master of Landscape Architecture
+        and cross-registered at MIT Media Lab and EECS during my studies.
         I have a Bachelor of Engineering from Southeast University's School of Architecture in China.</p>
     </div>
     <br>
@@ -90,10 +46,9 @@
     <div>
         <p class=p--info><strong>Contact</strong></p>
         <p class=p--info>Inquire via email: <a href="mailto:yuxiny0822@gmail.com">yuxiny0822@gmail.com</a><br>
-        Connect via LinkedIn: <a href="https://www.linkedin.com/in/yuxin-yang-78a671191/?originalSubdomain=cn">Here</a></p> 
+        Connect via LinkedIn: <a href="https://www.linkedin.com/in/yuxin-yang-78a671191/?originalSubdomain=cn">Here</a></p>
     </div>
 </div>
 
   </body>
   </html>
-  
