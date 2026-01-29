@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yuxin Yang | Systems Thinking Agent-Twin</title>
+        <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
+    </head>
+<body>
+
+<!-- Notion-style Banner -->
+<div style="width:100%; height:280px; overflow:hidden; margin:0;">
+    <img src="./images/stat_wip.png"
+         style="width:100%; height:100%; object-fit:cover; object-position:center;"
+         alt="Systems Thinking Agent-Twin Banner">
+</div>
+
+<!-- Page Content - No Sidebar -->
+<div style="max-width:960px; margin:0 auto; padding:20px 20px;">
+
+    <p class=h2>Systems Thinking Agent-Twin: Between Conceptual Ideas and Digital Twins</p>
+    <br>
+    <p class=p--caption style="color:gray;">
+        <em>Thinking Article — The Agent for Systems Behind EcoCircuit AI</em><br>
+        <em>Disclaimer — The ideas expressed in this article are solely those of the author, written by Yuxin Yang, Jan 25, 2026.</em>
+    </p>
+    <br>
+
+    <p class=p--caption style="color:gray;"><em>Key Ideas Summary —</em></p>
+    <ul style="font-size:14px; line-height:150%; color:gray;">
+        <li><em>Language-agent reasoning is itself a creative process and an act of design.</em></li>
+        <li><em>This article documents how EcoCircuit AI emerged from an experiment in "designing a net-positive city with AI." It engages with a long-standing challenge in complex design, engineering, and planning collaborations: the most creative work often coincides with the most demanding coordination and decision-making efforts.</em></li>
+        <li><em><strong>EcoCircuit 1.0 (current beta)</strong> explored how systems-thinking agents can surface design, program, and initiative opportunities.</em></li>
+        <li><em><strong>EcoCircuit 2.0</strong> asks a follow-up question: once opportunities are identified, how might systems-thinking agents help seek coherence, validation, and internal consistency?</em></li>
+        <li><em>Many ideas presented here were developed through discussions with Adam Mekies and were inspired by Yao et al.'s Tree-of-Thoughts.</em></li>
+    </ul>
+    <br><br>
+
+    <!-- Section: Initial Motivation -->
+    <p class=h--img>Initial Motivation - Designing A Net-Positive City with AI?</p>
+    <p class=p--info>
+        Three years ago, Adam Mekies and I were working on several infrastructure master-planning projects in the Middle East, around the same time that ChatGPT first gained widespread attention.
+    </p>
+    <p class=p--info>
+        One critical aspect in these projects is <strong>designing systems</strong> — infrastructure that delivers positive impact without compromising the future conditions or its surrounding context. Embedded in this work is <strong>systemic creativity</strong>—transforming what is often perceived as the rigidity or folly of "infrastructure" into something adaptive, inventive, and beautiful.
+    </p>
+    <p class=p--info>
+        Out of curiosity, I began feeding my typical systems-design questions to ChatGPT:
+    </p>
+    <blockquote style="border-left:3px solid #ccc; padding-left:15px; margin:20px 0; font-style:italic; color:#555;">
+        "What are the inputs of the environment?<br>
+        What are the outputs?<br>
+        What are the environmental technologies we could utilize?<br>
+        How could we co-optimize?"
+    </blockquote>
+    <p class=p--info>
+        That curiosity led to the release of <strong>EcoCircuit 1.0</strong> — a spontaneous experiment in AI-assisted systems design.
+    </p>
+    <br>
+    <hr style="border:none; border-top:1px solid #ccc; margin:30px 0;">
+
+    <!-- Section: EcoCircuit 1.0 Beta Release -->
+    <p class=h--img>EcoCircuit 1.0 Beta Release — A Spontaneous AI Systems Design Experiment</p>
+    <p class=p--info>
+        It has been a while since we published EcoCircuit 1.0 (Figure 1). From time to time, we get the question -
+    </p>
+    <blockquote style="border-left:3px solid #ccc; padding-left:15px; margin:20px 0; font-style:italic; color:#555;">
+        "Sure, this is interesting, …. but what is ecocircuit, exactly?"
+    </blockquote>
+    <p class=p--info>
+        Figure 2 shows several examples of the <em>systems design diagrams</em> we typically draw—what <strong>EcoCircuit</strong> has tried to become. These are <em>systems flow charts</em>—what many urban thinkers may call <em>metabolism diagrams</em> and engineers might describe as <em>systems models</em>. They live in the in between: part conceptual ideation and storytelling, part engineering logic. This "vagueness" is not an accident. It reflects how humans actually reason through systems—allowing ideas to drift fluidly and relationally (<em>systems thinking</em>) while also assembling or decomposing them into logical structures (<em>systems modeling</em>).
+    </p>
+    <p class=p--info>
+        Seen through another lens, this "in-between" space is the collaboration and coordination layer itself—where complex projects actually take shape.
+    </p>
+    <br>
+    <p class=p--info>
+        <strong>EcoCircuit AI</strong> is an LLM-empowered systems design explorer. In its simplest form in <strong>EcoCircuit 1.0</strong>, the tool converts an image or an environmental description into a systems design diagram. Users define the systems such as hydrology, energy, biosystems, transportation, food, economy.
+    </p>
+    <p class=p--info>
+        Across systems, the agent uses the <strong>IPOF framework</strong> to describe fundamental system behaviors (Figure 3):
+    </p>
+    <ul class=p--info>
+        <li><strong>Inputs</strong> — resources or elements introduced into the environment</li>
+        <li><strong>Processes</strong> — transformations that act upon those inputs</li>
+        <li><strong>Outputs</strong> — resulting resources or elements released back into the environment</li>
+        <li><strong>Feedback</strong> — cycles of recycling, co-optimization, or adaptation</li>
+    </ul>
+    <br>
+    <img src="./images/stat_fig1a.jpg" width=470 alt="Figure 1a: EcoCircuit example">
+    <img src="./images/stat_fig1b.jpg" width=470 alt="Figure 1b: EcoCircuit example"><br>
+    <p class=p--caption style="color:gray;"><em>Figure 1: A sneak peak into using EcoCircuit to rethink <a href="https://www.ecocircuitai.com/ecocircuit/bcdc7c60-c618-4260-9583-40658476cd79">Desert Farm</a>, <a href="https://www.ecocircuitai.com/ecocircuit/daab2277-e5fc-4163-be78-8f4de14ae4dd">Oceanix Busan - a Floating City</a>, and <a href="https://www.ecocircuitai.com/ecocircuit/80a9c7d1-5fe1-4882-a7b4-3c3a5bca2577">Woodlawn Central</a>. These examples illustrate how EcoCircuit translates environmental images or descriptions into systems design diagrams, visualizing flows across hydro, energy, biosystems, and urban systems, etc. (Note: image previews are limited—click the links for full versions. Please contact if image rights violation)</em></p>
+    <br>
+    <img src="./images/stat_fig2a.jpg" width=317 alt="Figure 2a: Systems flow chart">
+    <img src="./images/stat_fig2b.jpg" width=317 alt="Figure 2b: Systems flow chart">
+    <img src="./images/stat_fig2c.jpg" width=317 alt="Figure 2c: Systems flow chart"><br>
+    <p class=p--caption style="color:gray;"><em>Figure 2. Examples of systems flow charts — what many urban thinkers may call metabolism diagrams and engineers might describe as systems models. They live in the in-between: part conceptual ideation and storytelling, part engineering logic. (Note: Please contact if image rights violation)</em></p>
+    <br>
+    <img src="./images/stat_fig3a.png" width=470 alt="Figure 3a: IPOF Framework">
+    <img src="./images/stat_fig3b.png" width=470 alt="Figure 3b: EcoCircuit Interface"><br>
+    <p class=p--caption style="color:gray;"><em>Figure 3. Agent IPOF thinking structure in EcoCircuit 1.0 and Early sketch of EcoCircuit 1.0 interface.</em></p>
+    <br>
+    <hr style="border:none; border-top:1px solid #ccc; margin:30px 0;">
+
+    <!-- Section: Lessons Learned -->
+    <p class=h--img>Lessons Learned - Reasoning as a Creative Process and Act</p>
+    <p class=p--info>
+        The key lesson learned here is that <strong>agent reasoning itself as a designable creative process and act</strong> —not merely a tool for automation, but a medium for open-ended design and opportunity discovery.
+    </p>
+    <p class=p--info>
+        Recent agent frameworks such as <em>Tree-of-Thoughts</em> and <em>Agents Thinking Fast and Slow</em> partially reinforce this thought. They show how cognitive architectures can be intentionally structured to alternate between fast, intuitive generation and slow, deliberate reflection — supporting exploration rather than pure efficiency or automation.
+    </p>
+    <p class=p--info>
+        This idea also echoes historical human creative systems:
+    </p>
+    <ul class=p--info>
+        <li><em>Lawrence Halprin's RSVP cycle</em>, which translates creativity into a repeatable framework of <em>Resources, Score, Valuaction,</em> and <em>Performance</em> — a designed choreography of collaboration and improvisation.</li>
+        <li><em>Geographic Information Systems (GIS)</em>, which encode <em>systematic geospatial exploration</em> by organizing layers of information and relationships into a shared environment.</li>
+    </ul>
+    <p class=p--info>
+        Taken together, these examples suggest that <strong>agent reasoning can be creatively choreographed.</strong> By giving language agents creative <em>reasoning grammars</em> (such as IPOF or RSVP) and expressive <em>mediums or interfaces of exploration</em>, we can enable them to approach open-ended design explorations — not by mimicking human intuition, but by inheriting humanity's <strong>designed ways of thinking</strong>.
+    </p>
+    <p class=p--info>
+        This also highlights the importance of <strong>interface design</strong>: just as an agent reasons more effectively on code within a terminal than in a chat box, the medium of reasoning directly shapes the depth and quality of thought. For the built environment disciplines, could system twins or digital twins become that medium?
+    </p>
+    <br>
+    <img src="./images/stat_fig4.png" width=470 alt="Figure 4: Tree of Thoughts">
+    <img src="./images/stat_fig5.png" width=470 alt="Figure 5: Agents Thinking Fast and Slow"><br>
+    <p class=p--caption style="color:gray;"><em>Figure 4. Tree of Thoughts — A reasoning framework where agents branch multiple thought paths for complex or open-ended tasks, such as creative writing. [Source: Yao et al., 2023, <a href="https://arxiv.org/abs/2305.10601">https://arxiv.org/abs/2305.10601</a>]</em></p>
+    <p class=p--caption style="color:gray;"><em>Figure 5. Agents Thinking Fast and Slow — A dual-agent architecture combining a "Talker" (fast, intuitive) and a "Reasoner" (slow, deliberative), illustrating how designed cognitive alternation enhances open-ended reasoning. [Source: Christakopoulou et al., 2024, <a href="https://arxiv.org/abs/2410.08328">https://arxiv.org/abs/2410.08328</a>]</em></p>
+    <br>
+    <img src="./images/stat_fig6.png" width=470 alt="Figure 6: RSVP Cycles">
+    <img src="./images/stat_fig7.jpg" width=470 alt="Figure 7: GIS"><br>
+    <p class=p--caption style="color:gray;"><em>Figure 6. Lawrence Halprin's RSVP Cycles — A designed choreography of Resources, Score, Valuaction, and Performance that turns collaboration itself into a repeatable creative reasoning process. [Source: Halprin, 1970]</em></p>
+    <p class=p--caption style="color:gray;"><em>Figure 7. Geographic Information Systems (GIS) — Described by Esri co-founder Jack Dangermond as "an intelligent nervous system for our planet," GIS embodies a designed interface for systematic geospatial exploration and environmental understanding. [Image: "Collage of a glacier and a Landsat 8 satellite image" (Header image from Mongabay article)]</em></p>
+    <br>
+    <hr style="border:none; border-top:1px solid #ccc; margin:30px 0;">
+
+    <!-- Section: Pivot -->
+    <p class=h--img>Pivot — Systems Thinking Agent-Twin</p>
+    <p class=p--info>
+        Let's return to our initial motivation - designing a net-positive city with AI.
+    </p>
+    <p class=p--info>
+        In <strong>EcoCircuit 1.0</strong>, we asked <strong>why and how language agents could explore systems, systematically surface design, program, and initiative opportunities in the built environment.</strong> Through deliberately designed systems prompts, EcoCircuit 1.0 demonstrated that language agents can meaningfully support early-stage systems thinking—breaking down complexity, revealing relationships, and expanding the space of possible interventions. In this sense, EcoCircuit 1.0 was intentionally exploratory, prioritizing openness and generative reasoning over certainty.
+    </p>
+    <p class=p--info>
+        In <strong>EcoCircuit 2.0</strong>, we ask a different—but closely related—question: <strong>why and how language agents might model systems.</strong> This move toward systems modeling reflects an almost instinctive tendency in design and engineering practice. Once opportunities are identified, there is a natural desire to seek greater confidence—some form of validation, coherence, or internal consistency that makes the next step feel safer.
+    </p>
+    <p class=p--info>
+        From a creative standpoint, this tendency is not automatically a virtue. Compared to the early systems diagrams referenced earlier (Figure 2), increased certainty can narrow the space of exploration just as easily as it can clarify it.
+    </p>
+    <p class=p--info>
+        A useful analogy is the relationship between <strong>flowcharts and Sankey diagrams</strong>. Flowcharts emphasize branching, possibility, and alternative paths. Sankey diagrams emphasize structure, conservation, and directional certainty. Neither replaces the other; each supports a different way of thinking about systems.
+    </p>
+    <br>
+    <p class=p--info>
+        Then, why and how an LM agent might model systems?
+    </p>
+    <p class=p--info>
+        My intuition is simple. In physics, checking units and conservation laws often eliminates many errors before any detailed calculation begins. Likewise, in systems modeling, verifying system dynamics, flow directions, and constraints between elements is often enough to produce a useful system twin sketch.
+    </p>
+    <br>
+    <img src="./images/stat_wip.png" width=960 alt="WIP Systems Thinking Interface"><br>
+    <p class=p--caption style="color:gray;"><em><strong>WIP Systems Thinking Interface:</strong> generative renewable microgrid and hydrogen systems of an off-grid coastal island. A low-fidelity sketch of systems thinking agent-twin, created via interacting with ChatGPT.</em></p>
+    <br>
+    <hr style="border:none; border-top:1px solid #ccc; margin:30px 0;">
+
+    <!-- Section: Outcome -->
+    <p class=h--img>Outcome - The (Current) Tool and the Next Step</p>
+    <p class=p--info>
+        At this point, we are excited to share the continued evolution of <strong>EcoCircuit AI — Beta 1.0</strong>.
+    </p>
+    <p class=p--info>
+        If you are curious to experiment, contribute, design, or test the tool, visit <a href="https://www.ecocircuitai.com/">ecocircuitai.com</a> or reach out directly. We are actively looking for people interested in providing feedback or co-shaping EcoCircuit.
+    </p>
+    <p class=p--info>
+        Looking ahead, the <strong>Systems Thinking Agent-Twin</strong> will continue to focus on this fundamental challenge:
+    </p>
+    <blockquote style="border-left:3px solid #ccc; padding-left:15px; margin:20px 0; font-style:italic; color:#555;">
+        How can we design a net-positive city with AI?
+    </blockquote>
+    <p class=p--info>
+        This question drives the development of EcoCircuit—not as a single tool, but as a collaborative systems explorer and ecosystem.
+    </p>
+    <br>
+    <hr style="border:none; border-top:1px solid #ccc; margin:30px 0;">
+
+    <!-- Section: Acknowledgement -->
+    <p class=h--img>Acknowledgement</p>
+    <p class=p--info>
+        <strong>EcoCircuit AI</strong> is an open-source initiative powered by a growing community of designers, engineers, and thinkers. We thank everyone who has contributed to its conception and ongoing experimentation.
+    </p>
+    <p class=p--info>
+        You can explore contributors and collaborators here:<br>
+        <a href="https://www.ecocircuitai.com/ecocircuit/contributors">www.ecocircuitai.com/ecocircuit/contributors</a>
+    </p>
+    <br><br><br>
+
+    <!-- Footer -->
+    <div>
+        <p class=p--info>Inquire via email: <a href="mailto:yuxiny0822@gmail.com">yuxiny0822@gmail.com</a><br>
+        Connect via LinkedIn: <a href="https://www.linkedin.com/in/yuxin-yang-78a671191/">Here</a></p>
+        <footer>&copy; Yuxin Yang, Jan 2026</footer>
+    </div>
+
+</div>
+
+</body>
+</html>

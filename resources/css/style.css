@@ -104,6 +104,10 @@ div.a {
     overflow: hidden;
   }
 
+.content-main {
+    padding-top: 20px;
+}
+
 footer {
   line-height: 150%;
   font-size: 12px;
