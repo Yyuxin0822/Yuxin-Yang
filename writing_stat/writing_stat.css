@@ -1,0 +1,54 @@
+/* Page-specific overrides for writing_stat.html */
+.h--img {
+  text-indent: 0;
+}
+
+.p--caption {
+  font-size: 14px;
+}
+
+.figure-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Responsive images */
+.figure-row img {
+  flex: 1;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Side-by-side figures with captions */
+.figure-pair {
+  display: flex;
+  gap: 10px;
+}
+
+.figure-item {
+  flex: 1;
+  min-width: 0;
+}
+
+.figure-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Direct images in figure-pair (shared caption) */
+.figure-pair > img {
+  flex: 1;
+  min-width: 0;
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Full-width images */
+.figure-full img {
+  width: 100%;
+  height: auto;
+}

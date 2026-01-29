@@ -70,10 +70,11 @@ a:hover, a:active {
     font-family: "Lucida Console", "Courier New", monospace;
     padding-top: 0;
     font-size: 24px;}
-.h2{    
+.h2{
     font-family: "Lucida Console", "Courier New", monospace;
     font-weight:500;
     font-size: 24px;
+    line-height: 175%;
 }   
 
  .h--img{
@@ -81,15 +82,16 @@ a:hover, a:active {
   font-weight: bold;
   font-size: 14px;
   text-indent: 30px;
+  line-height: 175%;
  }   
 
 .p--info{
-    line-height: 150%;
+    line-height: 175%;
     font-size: 14px;
 }
 
 .p--caption{
-    line-height: 150%;
+    line-height: 175%;
     font-size: 12px;
     color:black;
     overflow: hidden;
