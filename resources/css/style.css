@@ -78,9 +78,9 @@ a:hover, a:active {
 }   
 
  .h--img{
-  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   text-indent: 30px;
   line-height: 175%;
  }   
