@@ -31,12 +31,13 @@ a:hover, a:active {
     position: fixed;
     text-align: left;
     height: 100%;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
 .collapsible {
   color:black;
-    cursor: pointer;
+    cursor: default;
     display: block;
     padding-right: 50px;
     padding-left: 0px;
@@ -56,7 +57,7 @@ a:hover, a:active {
   }
 
   .content {
-    display: none;
+    display: block;
     overflow: hidden;
     background-color: white;
   }
